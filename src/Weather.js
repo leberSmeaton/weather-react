@@ -20,7 +20,7 @@ export default function Weather(props){
       <p>npm install - if nothings working when trying to start, npm install reloads libraries</p>
       <Loader
         type="TailSpin"
-        color="#00BFFF"
+        color="pink"
         height={80}
         width={80}
       />
