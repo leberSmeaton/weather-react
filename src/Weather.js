@@ -14,10 +14,13 @@ export default function Weather(props){
   return (
     <div>
       <h2>Hello From Weather</h2>
-      <p>npm start - to start</p>
-      <p>control + c - to end</p>
-      <p>if you want to install any npms you can to stop the browser/terminal npm before you do the install. Eg. control + c, then install. </p>
-      <p>npm install - if nothings working when trying to start, npm install reloads libraries</p>
+      <ol>
+        <li><p>you only have to install/create the react file once.</p></li>
+        <li><p>npm start - to start</p></li>
+        <li><p>in terminal ... control + c - to end ... every time you close</p></li>
+        <li><p>if you want to install any npms you can to stop the browser/terminal npm before you do the install. Eg. control + c, then install. </p></li>
+        <li><p>npm install - if nothings working when trying to start, npm install reloads libraries</p></li>
+      </ol>
       <Loader
         type="TailSpin"
         color="red"
